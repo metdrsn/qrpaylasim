@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anıl Arbulutta | Dijital Pazarlama ve İçerik</title>
+    <meta
+      name="description"
+      content="Dijital pazarlama danışmanlığı, sosyal medya yönetimi ve içerik üretimi için modern tek sayfa web sitesi."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <a class="logo" href="#home">anilarbulutta<span>.com</span></a>
+        <button class="menu-btn" id="menuBtn" aria-label="Menüyü aç/kapat">☰</button>
+        <nav class="nav-links" id="navLinks">
+          <a href="#hakkimda">Hakkımda</a>
+          <a href="#hizmetler">Hizmetler</a>
+          <a href="#projeler">Projeler</a>
+          <a href="#iletisim">İletişim</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero container">
+        <div>
+          <p class="eyebrow">Dijital Pazarlama Uzmanı</p>
+          <h1>Markanı dijitalde büyütmek için doğru strateji.</h1>
+          <p class="lead">
+            Sosyal medya yönetimi, reklam optimizasyonu ve dönüşüm odaklı içerikler ile
+            görünürlüğünü artırıyorum.
+          </p>
+          <div class="actions">
+            <a class="btn primary" href="#iletisim">Teklif Al</a>
+            <a class="btn ghost" href="#projeler">Çalışmaları Gör</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3>Bu ayın öne çıkan sonuçları</h3>
+          <ul>
+            <li><strong>+142%</strong> organik erişim artışı</li>
+            <li><strong>+68%</strong> reklam dönüşüm oranı</li>
+            <li><strong>3.4x</strong> ROAS ortalaması</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="hakkimda">
+        <div class="container grid-2">
+          <div>
+            <h2>Merhaba, ben Anıl.</h2>
+            <p>
+              7+ yıldır markaların dijital pazarlama operasyonlarını uçtan uca yönetiyorum.
+              Performans reklamları ve içerik stratejisini birlikte ele alarak sürdürülebilir
+              büyüme sağlıyorum.
+            </p>
+          </div>
+          <div class="pill-list">
+            <span>Meta Ads</span>
+            <span>Google Ads</span>
+            <span>SEO İçerik</span>
+            <span>Video Script</span>
+            <span>Funnel Kurgusu</span>
+            <span>Mail Marketing</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="hizmetler">
+        <div class="container">
+          <h2>Hizmetler</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Sosyal Medya Yönetimi</h3>
+              <p>Marka tonuna uygun içerik planı, tasarım yönlendirmesi ve haftalık raporlama.</p>
+            </article>
+            <article class="card">
+              <h3>Reklam Yönetimi</h3>
+              <p>Meta ve Google kampanyalarının kurulumu, optimizasyonu ve ölçeklenmesi.</p>
+            </article>
+            <article class="card">
+              <h3>Danışmanlık</h3>
+              <p>Aylık strateji toplantıları ile ekibinize net yol haritası ve KPI takibi.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projeler">
+        <div class="container">
+          <h2>Örnek Projeler</h2>
+          <div class="projects">
+            <div class="project">
+              <h3>E-ticaret Moda Markası</h3>
+              <p>3 ayda ciroda %96 artış, sepet başı maliyette %38 düşüş.</p>
+            </div>
+            <div class="project">
+              <h3>SaaS Ürün Lansmanı</h3>
+              <p>4 haftada 1.200+ nitelikli lead ve 2.9x dönüşüm artışı.</p>
+            </div>
+            <div class="project">
+              <h3>Yerel Hizmet İşletmesi</h3>
+              <p>Google Business + içerik stratejisi ile %210 çağrı artışı.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta" id="iletisim">
+        <div class="container cta-box">
+          <h2>Markan için bir sonraki büyüme adımını birlikte atalım.</h2>
+          <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="Ad Soyad" required />
+            <input type="email" placeholder="E-posta" required />
+            <textarea rows="4" placeholder="Kısaca ihtiyacını yaz" required></textarea>
+            <button type="submit" class="btn primary">Mesaj Gönder</button>
+            <p class="form-msg" id="formMsg"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Anıl Arbulutta. Tüm hakları saklıdır.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
